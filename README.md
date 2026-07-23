@@ -9,7 +9,8 @@
 
 ## Screenshots
 
-![Uploading image.png…]()
+<img width="1717" height="965" alt="image" src="https://github.com/user-attachments/assets/0bc9808b-7ef5-4977-9ccb-b9a2d4925ef1" />
+
 
 <!-- ![Editor](screenshots/editor.png) -->
 <!-- ![Tool Windows](screenshots/toolwindows.png) -->
