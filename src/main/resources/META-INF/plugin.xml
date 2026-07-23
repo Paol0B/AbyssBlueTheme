@@ -1,0 +1,33 @@
+<idea-plugin>
+    <id>com.github.paol0b.abyss-blue</id>
+    <name>Abyss Blue</name>
+    <vendor url="https://github.com/paol0b/AbyssBlueTheme">Paolo Bertinetti</vendor>
+    <description><![CDATA[
+        <p>Bring a sleek, minimal dark aesthetic to IntelliJ IDEA and all JetBrains IDEs.</p>
+
+        <h3>Features</h3>
+        <ul>
+          <li><b>Island UI</b> — Dark islands (#11151C) floating on a near-black canvas (#0D1015) for a clean, focused look.</li>
+          <li><b>Reasoned syntax palette</b> — One color per role, identical across C, C++, Rust, Go, Java/Kotlin, C#, Python and more: purple keywords, teal types, blue functions, green strings, orange literals, gold annotations. No duplicate or clashing roles.</li>
+          <li><b>Built for readability</b> — Bold default text and a cool blue-slate surface scale; every syntax color meets WCAG AA contrast on the editor background.</li>
+          <li><b>Complete coverage</b> — Every UI surface is themed: popups, tool windows, tabs, notifications, VCS, debugger, breadcrumbs, and more.</li>
+          <li><b>Semantic color system</b> — Built on a layered token architecture for consistent contrast across all components.</li>
+        </ul>
+
+        <h3>Color Palette</h3>
+        <ul>
+          <li>Islands / Editor: <code>#11151C</code></li>
+          <li>Canvas / Background: <code>#0D1015</code></li>
+          <li>Popups / Menus: <code>#11151B</code></li>
+          <li>Keywords: purple · Types: teal · Functions: blue · Strings: green · Literals: orange</li>
+        </ul>
+
+        <p>Designed for developers who want a clean, minimal look with the full power of IntelliJ IDEA.</p>
+    ]]></description>
+
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <themeProvider id="b9e1e06c-bac6-4272-a674-232a6259c4c0" path="/themes/abyss_blue.theme.json"/>
+    </extensions>
+</idea-plugin>
